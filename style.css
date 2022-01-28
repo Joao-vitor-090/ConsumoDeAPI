@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+body{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background:  url("/img/ER\ kimetsu\ no\ Yaiba.jpg") center center no-repeat ;
+  background-position-y: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+h1{
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid white;
+    margin: 3em 0px 0.5em 0px;
+    padding: 1em;
+}
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.5em;
+}
+input{
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 0.7em;
+    margin: 0.4em;
+}
+div#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    padding: 1em;
+    margin: 1.5em;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 3px 2px 3px blanchedalmond;
+    cursor: pointer;
+}
